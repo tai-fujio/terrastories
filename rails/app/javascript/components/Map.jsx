@@ -60,7 +60,7 @@ export default class Map extends Component {
 
   updateMarkers() {
     this.props.points.features.forEach(marker => {
-      console.log(props.points.features);
+      console.log(this.props.points.features);
       console.log(marker.properties);
        // create a HTML element for each feature
        var el = document.createElement('div');
